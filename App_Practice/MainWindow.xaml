@@ -7,6 +7,10 @@
         Title="Выбор практической работы" Height="300" Width="400"
         WindowStartupLocation="CenterScreen">
     <Grid>
+        <StackPanel VerticalAlignment="Top"  HorizontalAlignment="Center">
+            <TextBlock Text="Родиков С.К П23-2.1" 
+                       FontSize="16" Margin="0,0,0,20"/>
+        </StackPanel>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Выберите практическую работу:" 
                        FontSize="16" Margin="0,0,0,20"/>
