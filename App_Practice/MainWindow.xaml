@@ -26,6 +26,9 @@
             <Button Content="Практическая работа №14" 
                     Width="200" Margin="0,5" Padding="10,5"
                     Click="Practice14_Click"/>
+            <Button Content="Практическая работа №15" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice14_Click"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using App_Practice.Windows;
 
 namespace App_Practice
 {
@@ -27,22 +28,30 @@ namespace App_Practice
         }
         private void Practice12_Click(object sender, RoutedEventArgs e)
         {
-            var work12 = new App_Practice.Practice12Window();
+            var work12 = new Practice12Window();
             work12.Show();
             this.Hide();
         }
 
         private void Practice13_Click(object sender, RoutedEventArgs e)
         {
-            var work13 = new App_Practice.Practice13Window();
+            var work13 = new Practice13Window();
             work13.Show();
             this.Hide();
         }
 
         private void Practice14_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Практическая работа №14 еще не реализована", "Информация",
-                          MessageBoxButton.OK, MessageBoxImage.Information);
+            var work14 = new Practice14Window();
+            work14.Show();
+            this.Hide();
         }
+        private void Practice15_Click(object sender, RoutedEventArgs e)
+        {
+            var work15 = new Practice15Window();
+            work15.Show();
+            this.Hide();
+        }
+
     }
 }

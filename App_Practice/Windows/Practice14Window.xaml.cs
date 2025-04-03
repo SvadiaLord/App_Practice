@@ -124,7 +124,6 @@ namespace App_Practice.Windows
             return result;
         }
 
-        // Реализации задач
         private string SolveTask1()
         {
             int[,] matrix = GenerateIntMatrix(3, 4);
@@ -649,6 +648,11 @@ namespace App_Practice.Windows
             var mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
+        }
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            var mainWindow = new MainWindow();
+            mainWindow.Show();
         }
     }
 }
