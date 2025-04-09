@@ -67,6 +67,15 @@
     <Compile Include="Windows\Practice15Window.xaml.cs">
       <DependentUpon>Practice15Window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Practice16Window.xaml.cs">
+      <DependentUpon>Practice16Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Practice17Window.xaml.cs">
+      <DependentUpon>Practice17Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Practice18Window.xaml.cs">
+      <DependentUpon>Practice18Window.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -92,6 +101,17 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Practice15Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Practice16Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Practice17Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Practice18Window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

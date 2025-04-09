@@ -52,6 +52,24 @@ namespace App_Practice
             work15.Show();
             this.Hide();
         }
+        private void Practice16_Click(object sender, RoutedEventArgs e)
+        {
+            var work16 = new Practice16Window();
+            work16.Show();
+            this.Hide();
+        }
+        private void Practice17_Click(object sender, RoutedEventArgs e)
+        {
+            var work17 = new Practice17Window();
+            work17.Show();
+            this.Hide();
+        }
+        private void Practice18_Click(object sender, RoutedEventArgs e)
+        {
+            var work18 = new Practice18Window();
+            work18.Show();
+            this.Hide();
+        }
 
     }
 }
